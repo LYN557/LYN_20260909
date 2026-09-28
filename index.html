@@ -4,13 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LYN</title>
+    <style>
+        body{
+            text-align: center;
+        }
+
+        .class1{
+            color:rgb(128, 128, 145);
+          font-size:14px
+        }
+
+        #name{
+            font-size:24px;
+            background-color: #f0f0f0;
+        }
+     </style>
+     <link href="./s1.css" rel="stylesheet">
+         <script>
+        console.log("!-- 内嵌式引入javascript --")
+        // alert("提交警告22222222")
+        // confirm('确认跳转吗？22222222222')
+        let i = 0
+        const timer = setInterval(() => {
+            console.log(i)
+            i++
+        }, 1000)
+    </script>
+    <script src="./j1.js" type="text/javascript"></script>
 </head>
 <body>
     <h1>个人简介</h1><br>
-    <p>姓名：李莹</p>
-    <p>电话：13713652479</p>
-    <p>生日：20070507</p>
-    <p>邮箱：liy216670@gmail.com</p>
+    <p id="name">姓名：李莹</p>
+    <p class="class1">电话：13713652479</p>
+    <p class="class1">生日：20070507</p>
+    <p class="class1">邮箱：liy216670@gmail.com</p>
     <p>爱好：看书和健身</p>
 </body>
 </html>
